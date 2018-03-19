@@ -1,0 +1,37 @@
+@font-face{
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: normal;
+  src: url('#{$open-sans-font-path}/OpenSans-ExtraBold.ttf');
+}
+@font-face{
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
+  src: url('#{$open-sans-font-path}/OpenSans-Bold.ttf');
+}
+@font-face{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('#{$open-sans-font-path}/OpenSans-Regular.ttf');
+}
+@font-face{
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: normal;
+  src: url('#{$open-sans-font-path}/OpenSans-Light.ttf');
+}
+@font-face{
+  font-family: 'Pacifico';
+  font-weight: 400;
+  font-style: normal;
+  src: url('#{$pacifico-font-path}/Pacifico-Regular.ttf');
+}
+@font-face{
+  font-family: 'Rammetto One';
+  font-weight: 400;
+  font-style: normal;
+  src: url('#{$rammetto-one-font-path}/RammettoOne-Regular.ttf');
+}
+

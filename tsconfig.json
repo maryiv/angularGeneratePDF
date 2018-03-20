@@ -14,7 +14,10 @@
     "baseUrl": "src",
     "paths": {
       "@app/*": ["app/*"],
-      "@env/*": ["environments/*"]
+      "@env/*": ["environments/*"],
+      "@components/*": ["app/modules/shared/components/*"],
+      "@models/*": ["app/modules/shared/models/*"],
+      "@services/*": ["app/modules/shared/services/*"]
     },
     "lib": [
       "es2017",

@@ -12,13 +12,12 @@ export class CustomTaskLayoutComponent implements OnInit {
   /** @inheritdoc */
   constructor(private router: Router) {
     router.events.subscribe((val) => {
-      console.log('!!!', this.router.url);
-      // this.isSideBar = !(this.router.url.split('?')[0] === '/sign-in' || router.url === '/registration');
+      this.isSideBar = !(this.router.url.split('?')[0] === '/sign-in' || router.url === '/registration');
     });
   }
 
   /** @inheritdoc */
   ngOnInit() {
-    console.log('I\'m here!!!', this.isSideBar);
+    // TODO: add logic
   }
 }

@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "./assets/styles/app-loading.scss",
         "./assets/styles/vendors.scss",
         "./assets/styles/global.scss"
       ],

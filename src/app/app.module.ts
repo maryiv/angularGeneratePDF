@@ -1,8 +1,8 @@
-import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import {CoreModule} from '@app/modules/core/core.module';
 import {routing} from '@app/app-routing.module';
+import {CoreModule} from '@app/modules/core/core.module';
 
 import {AppComponent} from '@app/modules/core/components/app.component';
 

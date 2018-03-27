@@ -1,5 +1,5 @@
-import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {Injectable} from '@angular/core';
 
 import {TaskModel} from 'app/modules/shared/models/task.model';
 

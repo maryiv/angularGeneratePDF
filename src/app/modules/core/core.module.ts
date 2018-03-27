@@ -1,16 +1,17 @@
-import {NgModule, Optional, SkipSelf} from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CommonModule} from '@angular/common';
 import {HttpClientModule} from '@angular/common/http';
+import {NgModule, Optional, SkipSelf} from '@angular/core';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
-import {MaterialModule} from '@app/modules/material.module';
+
+import {MaterialModule} from '@app/modules/core/material.module';
 
 import {TaskService} from '@services/task.service';
 
-import {HeaderComponent} from '@components/header/header.component';
 import {PageNotFoundComponent} from '@app/modules/core/components/not-found.component';
 import {CustomTaskLayoutComponent} from '@app/modules/custom-task/components/layout.component';
 import {TrelloTaskLayoutComponent} from '@app/modules/trello-task/components/layout.component';
+import {HeaderComponent} from '@components/header/header.component';
 
 const COMPONENTS = [
   HeaderComponent,
@@ -33,6 +34,7 @@ const COMPONENTS = [
     TaskService
   ]
 })
+
 export class CoreModule {
   constructor(@Optional() @SkipSelf() parentModule: CoreModule) {
     if (parentModule) {

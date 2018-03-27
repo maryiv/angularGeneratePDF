@@ -8,7 +8,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+JIT compilation is the default when you run the build-only `ng build` or the build-and-serve-locally `ng serve` CLI commands.
+The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+For AOT compilation, append the `--aot` flags to the build-only or the build-and-serve-locally CLI commands:
+`ng build --aot` and `ng serve --aot`. The `--prod` meta-flag compiles with AOT by default.
 
 ## Running unit tests
 

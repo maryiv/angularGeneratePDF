@@ -17,7 +17,7 @@
       "@env/*": ["environments/*"],
       "@components/*": ["app/modules/shared/components/*"],
       "@models/*": ["app/modules/shared/models/*"],
-      "@services/*": ["app/modules/shared/services/*"]
+      "@services/*": ["app/modules/core/services/*"]
     },
     "lib": [
       "es2017",

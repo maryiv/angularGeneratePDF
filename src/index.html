@@ -10,6 +10,7 @@
   <style type="text/css">
     body, html {
       height: 100%;
+      margin: 0;
     }
     .app-loading {
       position: relative;
@@ -25,11 +26,10 @@
       animation: rotate 2s linear infinite;
       transform-origin: center center;
       position: absolute;
-      top: 0;
+      top: calc(50% - 100px);
       bottom: 0;
-      left: 0;
+      left: calc(50% - 100px);
       right: 0;
-      margin: auto;
     }
     .app-loading .spinner .path {
       stroke-dasharray: 1, 200;

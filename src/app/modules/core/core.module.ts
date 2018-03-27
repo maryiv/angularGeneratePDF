@@ -8,7 +8,7 @@ import {MaterialModule} from '@app/modules/material.module';
 import {TaskService} from '@services/task.service';
 
 import {HeaderComponent} from '@components/header/header.component';
-import {PageNotFoundComponent} from '@app/components/not-found.component';
+import {PageNotFoundComponent} from '@app/modules/core/components/not-found.component';
 import {CustomTaskLayoutComponent} from '@app/modules/custom-task/components/layout.component';
 import {TrelloTaskLayoutComponent} from '@app/modules/trello-task/components/layout.component';
 

@@ -4,7 +4,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {CustomTaskLayoutComponent} from '@app/modules/custom-task/components/layout.component';
 import {TrelloTaskLayoutComponent} from '@app/modules/trello-task/components/layout.component';
 
-import {PageNotFoundComponent} from '@app/components/not-found.component';
+import {PageNotFoundComponent} from '@app/modules/core/components/not-found.component';
 
 export const routes: Routes = [
   {
